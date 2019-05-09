@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Артур Шаповалов](https://up.htmlacademy.ru/htmlcss/25/user/1022153).
-* Наставник: `Михаил Поданев`.
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
 
 ---
 
