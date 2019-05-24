@@ -10,23 +10,32 @@
         <form class="booking-form" action="https://echo.htmlacademy.ru" method="post">
      <p class="check-in">
        <label>Дата заезда:<input type="text" name="check-in-date" value="" placeholder="24 апреля 2017"></label>
-       <img src="img\calendar.svg" alt="Calendar">
+       <button class="calendar-in" type="button"><span class="visually-hidden">Календарь</span></button>
      </p>
       <p class="check-out">
        <label>Дата выезда:<input type="text" name="check-out-date" value="" placeholder="4 июля 2017"></label>
-       <img src="img\calendar.svg" alt="Calendar">
+       <button class="calendar-out" type="button"><span class="visually-hidden">Календарь</span></button>
      </p>
       <p class="adults">
-       <label>Взрослые:<input type="number" name="check-in-date" value="" placeholder="2"></label>
+
+       <label for="adults">Взрослые:</label>
+         <button class="children-reduce button" type="button"><span class="visually-hidden">Уменьшить</span></button>
+         <input type="number" id="adults" name="adults" value="" placeholder="2">
+         <button class="adults-add button" type="button"><span class="visually-hidden">Добавить</span></button>
+
+
      </p>
       <p class="children">
-       <label>Дети:<input type="number" name="check-out-date" value="" placeholder="0"></label>
+       <label for="children">Дети:</label>
+         <button class="children-reduce button" type="button"><span class="visually-hidden">Уменьшить</span></button>
+         <input type="number" id="children" name="children" value="" placeholder="0">
+         <button class="children-add button" type="button"><span class="visually-hidden">Добавить</span></button>
      </p>
 
      <button class="button" type="submit">Найти</button>
                 </form>
 
-        
+
       </section>
     </main>
   </body>
