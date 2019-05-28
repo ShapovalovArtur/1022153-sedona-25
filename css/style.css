@@ -187,6 +187,16 @@ color: #000000;
   height: 48px;
 }
 
+.footer-social li:hover {
+  background-color: #669ec0;
+
+}
+
+.footer-social li:active {
+  background-color: #5496bd;
+
+}
+
 .footer-copyright b {
   line-height: 1.86;
   font-weight: normal;
@@ -215,8 +225,9 @@ color: #000000;
   color: #ffffff;
 }
 
-.button-info {
+.catalog-item-action {
   background-color: #81b3d2;
+  font-weight: bold;
 }
 
 .button-info:hover {
@@ -242,7 +253,7 @@ color: #000000;
 }
 
 .catalog-item-rating {
-  
+
 }
 /*
 
