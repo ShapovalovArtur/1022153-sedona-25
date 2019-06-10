@@ -234,20 +234,28 @@ color: #000000;
 
 .catalog-item-title:active {
   color: rgba(0, 0, 0, 0.3);
+}
 
 .catalog-category, .catalog-item-price {
   color: #333333;
+  line-height: 1.5;
 }
 
-.button-info, .button-book {
+
+
+.button-book, .button-info  {
   font-weight: bold;
   line-height: 1.5;
   color: #ffffff;
 }
 
-.catalog-item-action {
+.button-info {
   background-color: #81b3d2;
-  font-weight: bold;
+}
+
+.button-book {
+  background-color: #81b3d2;
+
 }
 
 .button-info:hover {
@@ -270,4 +278,17 @@ color: #000000;
 .button-book:active {
   background-color: #503e33;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.catalog-item-rating {
+  line-height: 1.5;
+  color: #666666;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
