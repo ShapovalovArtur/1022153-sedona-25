@@ -73,6 +73,35 @@ a {
 
 }
 
+.welcome-container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* Временно для сетки */
+  margin: 0 auto;
+  width: 1200px;
+  height: 508px;
+  border: 1px solid yellow;
+
+}
+
+.welcome-image {
+    align-self: center;
+    margin-bottom: 21px;
+    /* Временно для сетки */
+    width: 459px;
+    height: 353px;
+    border: 1px solid yellow;
+}
+.polygon-image {
+
+  width: 1200px;
+  height: 59px;
+  border: 1px solid yellow;
+}
+
+
 .features-list,
 .site-navigation,
 .catalog-list {
