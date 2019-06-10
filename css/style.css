@@ -24,12 +24,20 @@ body {
   background-image: url('../img/sedona-index-grid.jpg');
   background-size: 1280px auto;
   background-repeat: no-repeat;
+  background-position: center top;
 }
 .main-header {
-  border: 1px solid black
-  ;
-  min-height: 56px;
+ display: flex;
+  /* Временно для сетки */
+  border: 1px solid black;
+  height: 56px;
 }
+.header-logo {
+  display: none;
+
+}
+
+
 
 :focus {
 outline: none;
@@ -41,8 +49,28 @@ a {
 }
 
 .main-navigation {
+  display: flex;
+  width: 1200px;
+  display:flex;
+  margin: 0 auto;
   line-height: 1.86;
   font-weight: bold;
+  padding: 0;
+  /* Временно для сетки */
+  border: 1px solid pink;
+}
+.site-navigation {
+
+    /* Временно для сетки */
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+
+}
+.site-navigation li {
+/* Временно для сетки */
+  border: 1px solid blue;
+
 }
 
 .features-list,
