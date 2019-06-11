@@ -62,20 +62,9 @@ a {
   border: 1px solid pink;
   box-sizing: border-box;
 }
-.site-navigation {
 
-    /* Временно для сетки */
-    border: 1px solid green;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 
-}
-.site-navigation li {
-/* Временно для сетки */
-  border: 1px solid blue;
-  box-sizing: border-box;
-}
+
 
 .welcome-container {
 
@@ -130,6 +119,10 @@ a {
 }
 
 .book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   margin: 0 auto;
   width: 1200px;
   height: 764px;
@@ -140,18 +133,59 @@ a {
 }
 
 .interest {
-  width: 434;
-  height: 96;
+  margin-top: 57px;
+  width: 434px;
+  height: 96px;
   /* Временно для сетки */
   border: 1px solid red;
   box-sizing: border-box;
 }
 
 .modal-book {
-  width:
-  height:
-  border: 1px solid yellow;
+  margin-top: 52px;
+  /* Временно для сетки */
+  border: 1px solid red;
   box-sizing: border-box;
+}
+
+.main-footer {
+width: 1200px;
+display: flex;
+/* Временно для сетки */
+border: 1px solid red;
+box-sizing: border-box;
+}
+
+.hashtag-container {
+  margin-top: 51px;
+  margin-left: 132px;
+  /* Временно для сетки */
+  width: 136px;
+  height: 16px;
+  border: 1px solid red;
+  box-sizing: border-box;
+
+}
+.footer-social {
+  margin-top: 36px;
+  margin-left: 256px;
+  /* Временно для сетки */
+  width: 150px;
+  height: 48px;
+  border: 1px solid red;
+  box-sizing: border-box;
+
+}
+
+.copyright-container {
+  margin-top: 39px;
+  margin-left: 228px;
+  /* Временно для сетки */
+  width: 197px;
+  height: 41px;
+  border: 1px solid red;
+  box-sizing: border-box;
+
 }
 
 .features-list,
@@ -206,6 +240,7 @@ h3 + p {
 }
 
 .button {
+
   font: inherit;
   font-size: 21px;
   font-weight: bold;

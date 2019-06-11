@@ -39,16 +39,51 @@
   <div class="interest">
 
   </div>
+  <section class="modal-book">
+    <button class="button modal-book-button" type="button">
+      <span class="book-form-button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</span>
+    </button>
+
+    <form class="booking-form" action="https://echo.htmlacademy.ru" method="post">
+  <p class="check-in">
+   <label>Дата заезда:<input type="text" name="check-in-date" value="" placeholder="24 апреля 2017"></label>
+   <button class="calendar-in" type="button"><span class="visually-hidden">Календарь</span></button>
+  </p>
+  <p class="check-out">
+   <label>Дата выезда:<input type="text" name="check-out-date" value="" placeholder="4 июля 2017"></label>
+   <button class="calendar-out" type="button"><span class="visually-hidden">Календарь</span></button>
+  </p>
+  <p class="adults">
+
+   <label for="adults">Взрослые:</label>
+     <button class="reduce button" type="button"><span class="visually-hidden">Уменьшить</span></button>
+     <input type="number" id="adults" name="adults" value="" placeholder="2">
+     <button class="add button" type="button"><span class="visually-hidden">Добавить</span></button>
 
 
-        <section class="modal-book">
+  </p>
+  <p class="children">
+   <label for="children">Дети:</label>
+     <button class="reduce button" type="button"><span class="visually-hidden">Уменьшить</span></button>
+     <input type="number" id="children" name="children" value="" placeholder="0">
+     <button class="add button" type="button"><span class="visually-hidden">Добавить</span></button>
+  </p>
+
+  <button class="button submit" type="submit">Найти</button>
+            </form>
+
+    </section>
 
 
-          </section>
 </div>
+
         </main>
     <footer class="main-footer">
+    <div class="hashtag-container">
+
+
       <a class="hashtag" href="#"></a>
+      </div>
       <div class="footer-social">
         <ul>
           <li></li>
@@ -56,10 +91,13 @@
           <li></li>
         </ul>
       </div>
+    <div class="copyright-container">
+
+
       <p class="footer-copyright">
 
       </p>
-
+    </div>
 
     </footer>
   </body>
