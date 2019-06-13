@@ -157,6 +157,21 @@ margin: 0 auto;
 
 }
 
+.catalog-list {
+  padding: 0px;
+  border-top: 1px solid white;
+
+}
+.catalog-item {
+  display: flex;
+  margin: 30px 72px;
+}
+
+.item-properties-container {
+  margin-left: 30px;
+  min-width: 258px;
+}
+
 .features-list,
 .site-navigation,
 .catalog-list {
@@ -179,10 +194,9 @@ margin: 0 auto;
 position: absolute;
 top: 350px;
 left: 35%;
-
-
-
 }
+
+
 
 h1 {
 
@@ -396,6 +410,8 @@ color: #000000;
 .catalog-item-rating {
   line-height: 1.5;
   color: #666666;
+  margin-right: 72px;
+  margin-left: 538px;
 }
 
 .visually-hidden {
