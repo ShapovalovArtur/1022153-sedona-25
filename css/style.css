@@ -19,20 +19,11 @@ body {
   min-height: 2762px;
 }
 
-body {
-  /* Временно для сетки */
-  background-image: url('../img/sedona-index-grid.jpg');
-  background-size: 1280px auto;
-  background-repeat: no-repeat;
-  background-position: center top;
-  box-sizing: border-box;
+
 }
 .main-header {
  display: flex;
-  /* Временно для сетки */
-  border: 1px solid black;
-  height: 56px;
-  box-sizing: border-box;
+
 }
 .header-logo {
   display: none;
@@ -58,9 +49,7 @@ a {
   line-height: 1.86;
   font-weight: bold;
   padding: 0;
-  /* Временно для сетки */
-  border: 1px solid pink;
-  box-sizing: border-box;
+
 }
 
 
@@ -72,38 +61,30 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* Временно для сетки */
+
   margin: 0 auto;
-  width: 1200px;
-  height: 724px;
-  border: 1px solid yellow;
-  box-sizing: border-box;
+
+
   padding-top: 76px;
 }
 
 .welcome-image {
 
     margin-bottom: 21px;
-    /* Временно для сетки */
-    width: 459px;
-    height: 353px;
-    border: 1px solid yellow;
-    box-sizing: border-box;
+
+
 }
 .polygon-image {
 
   width: 1200px;
   height: 59px;
-  /* Временно для сетки */
-  border: 1px solid yellow;
-  box-sizing: border-box;
+
   margin-bottom: 61px;
 }
 .about {
   width: 440px;
   height: 48px;
-  border: 1px solid yellow;
-  box-sizing: border-box;
+
 }
 .features-container {
   display: flex;
@@ -113,9 +94,7 @@ a {
   margin: 0 auto;
   width: 1200px;
   height: 1098px;
-  /* Временно для сетки */
-  border: 1px solid yellow;
-  box-sizing: border-box;
+
 }
 
 .book-container {
@@ -126,9 +105,7 @@ a {
   margin: 0 auto;
   width: 1200px;
   height: 764px;
-  /* Временно для сетки */
-  border: 1px solid yellow;
-  box-sizing: border-box;
+
 
 }
 
@@ -136,55 +113,47 @@ a {
   margin-top: 57px;
   width: 434px;
   height: 96px;
-  /* Временно для сетки */
-  border: 1px solid red;
-  box-sizing: border-box;
+
 }
 
 .modal-book {
   margin-top: 52px;
-  /* Временно для сетки */
-  border: 1px solid red;
-  box-sizing: border-box;
+
 }
 
 .main-footer {
 width: 1200px;
 display: flex;
-/* Временно для сетки */
-border: 1px solid red;
-box-sizing: border-box;
+margin: 0 auto;
+
 }
 
 .hashtag-container {
   margin-top: 51px;
   margin-left: 132px;
-  /* Временно для сетки */
+
   width: 136px;
   height: 16px;
-  border: 1px solid red;
-  box-sizing: border-box;
+
 
 }
 .footer-social {
   margin-top: 36px;
   margin-left: 256px;
-  /* Временно для сетки */
+
   width: 150px;
   height: 48px;
-  border: 1px solid red;
-  box-sizing: border-box;
+
 
 }
 
 .copyright-container {
   margin-top: 39px;
   margin-left: 228px;
-  /* Временно для сетки */
+
   width: 197px;
   height: 41px;
-  border: 1px solid red;
-  box-sizing: border-box;
+
 
 }
 
@@ -211,12 +180,12 @@ position: absolute;
 top: 350px;
 left: 35%;
 
+
+
 }
 
 h1 {
-  margin-left: 380px;
-  width: 440px;
-  height: 48px;
+
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
