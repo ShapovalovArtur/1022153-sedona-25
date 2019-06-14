@@ -12,7 +12,7 @@ body {
   background-color: #FFFFFF;
 
 }
-/* ----- Сеточные стили ----- */
+
 html,
 body {
   min-width: 1200px;
@@ -20,17 +20,28 @@ body {
 }
 
 
-}
-.main-header {
+.site-navigation {
  display: flex;
-
+width: 100%;
+padding: 0px;
 }
+
 .header-logo {
-  display: none;
+  position: absolute;
+  left: 46%;
+  top: 0px;
 
 }
 
+.site-navigation li {
+  min-width: 239px;
 
+}
+
+.site-navigation li:nth-child(3) {
+  min-width: 244px;
+
+}
 
 :focus {
 outline: none;
@@ -190,11 +201,7 @@ margin: 0 auto;
     color: rgba(0, 0, 0, 0.3);
 }
 
-.welcome {
-position: absolute;
-top: 350px;
-left: 35%;
-}
+
 
 
 
