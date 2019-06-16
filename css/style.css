@@ -63,7 +63,11 @@ a {
 
 }
 
+.container {
+  margin: 0 80px;
 
+
+}
 
 
 .welcome-container {
@@ -72,30 +76,30 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
+  min-height: 724px;
   margin: 0 auto;
-
+  background: url("../img/main-intro.jpg") no-repeat;
 
   padding-top: 76px;
 }
 
 .welcome-image {
 
-    margin-bottom: 21px;
+    margin-bottom: 38px;
 
 
 }
 .polygon-image {
 
   width: 1200px;
-  height: 59px;
+  height: 49px;
 
-  margin-bottom: 61px;
+
 }
 .about {
   width: 440px;
   height: 48px;
-
+  margin-top: 61px;
 }
 .features-container {
   display: flex;
@@ -104,7 +108,22 @@ a {
   align-items: center;
   margin: 0 auto;
   width: 1200px;
-  height: 1098px;
+
+
+
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.feature-town, .feature-motel, .feature-food, .feature-souvenir,
+.feature-bridge, .feature-square, .feature-road, .feature-tourist
+ {
+  width: 400px;
 
 }
 
@@ -116,7 +135,7 @@ a {
   margin: 0 auto;
   width: 1200px;
   height: 764px;
-
+  background: url("../img/map.jpg") 0px 291px no-repeat;
 
 }
 
@@ -211,6 +230,12 @@ h1 {
   font-weight: bold;
   line-height: 1.24;
   text-align: center;
+  margin: 0;
+}
+
+.about p {
+margin: 0;
+
 }
 
 p {
@@ -326,6 +351,7 @@ color: #000000;
 }
 
 .footer-social ul {
+  display: flex;
   list-style: none;
 }
 
@@ -339,6 +365,7 @@ color: #000000;
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
+  margin-left: 6px;
 }
 
 .footer-social li:hover {
