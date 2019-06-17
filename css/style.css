@@ -27,10 +27,13 @@ padding: 0px;
 }
 
 .header-logo {
+
   position: absolute;
-  /*left: 46%;*/
-  left: 530px;
-  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
 
 }
 
