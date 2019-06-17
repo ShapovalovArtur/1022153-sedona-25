@@ -28,7 +28,8 @@ padding: 0px;
 
 .header-logo {
   position: absolute;
-  left: 46%;
+  /*left: 46%;*/
+  left: 530px;
   top: 0px;
 
 }
@@ -39,8 +40,8 @@ padding: 0px;
 }
 
 .site-navigation li:nth-child(3) {
-  min-width: 244px;
-
+  margin-left:  244px;
+  min-width: 0px;
 }
 
 :focus {
@@ -64,7 +65,8 @@ a {
 }
 
 .container {
-  margin: 0 80px;
+  width: 1200px;
+  margin: 0 auto;
 
 
 }
