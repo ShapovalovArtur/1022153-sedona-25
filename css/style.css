@@ -19,6 +19,11 @@ body {
   min-height: 2762px;
 }
 
+img {
+max-width: 100%;
+height: auto;
+
+}
 
 .site-navigation {
  display: flex;
@@ -90,14 +95,14 @@ a {
 
 .welcome-image {
 
-    margin-bottom: 38px;
+    margin-bottom: 39px;
 
 
 }
 .polygon-image {
 
   width: 1200px;
-  height: 49px;
+  height: 59px;
 
 
 }
