@@ -121,6 +121,7 @@ a {
 
 
 
+
 }
 
 .features-list {
@@ -134,6 +135,7 @@ a {
 .feature-bridge, .feature-square, .feature-road, .feature-tourist
  {
   width: 400px;
+  min-height: 256px;
 
 }
 
