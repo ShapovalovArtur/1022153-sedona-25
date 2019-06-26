@@ -153,14 +153,26 @@ a {
 
 .interest {
   margin-top: 57px;
-  width: 434px;
+  width: 435px;
   height: 96px;
 
 }
 
+.interest h3 {
+margin-top: 0px;
+
+}
+
+.interest p {
+margin: 0;
+
+
+}
 .modal-book {
   margin-top: 52px;
-
+  width: 568px;
+  height: 395px;
+  background-color: #ffffff
 }
 
 .main-footer {
@@ -260,6 +272,7 @@ h3 {
   font-weight: bold;
   line-height: 1.2;
   color: #000000;
+  margin-bottom: 18px;
 }
 
 h3 + p {
