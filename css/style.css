@@ -130,6 +130,13 @@ a {
   margin: 0;
   padding: 0;
 }
+.features-list h2, .features-list p {
+  margin: 0;
+}
+.features-list img {
+display: block;
+
+}
 
 .feature-town, .feature-motel, .feature-food, .feature-souvenir,
 .feature-bridge, .feature-square, .feature-road, .feature-tourist
@@ -138,6 +145,18 @@ a {
   min-height: 256px;
 
 }
+
+.feature-town, .feature-bridge,
+.feature-town p, .feature-bridge p {
+background-color: #81b3d2;
+color: #ffffff;
+}
+
+.feature-town {
+box-sizing: border-box;
+padding: 46px 60px 64px;
+}
+
 
 .book-container {
   display: flex;
@@ -169,7 +188,7 @@ margin: 0;
 
 }
 .modal-book {
-  margin-top: 52px;
+
   width: 568px;
   height: 395px;
   background-color: #ffffff
@@ -293,6 +312,7 @@ h3 + p {
   background-color: #f2f2f2;
 }
 .modal-book-button {
+  margin-top: 52px;
   width: 568px;
   height: 86px;
   background-color: #766357;
