@@ -107,8 +107,8 @@ a {
 
 }
 .about {
-  width: 440px;
-  height: 48px;
+  width: 489px;
+  height: 110px;
   margin-top: 61px;
 }
 .features-container {
@@ -152,8 +152,20 @@ background-color: #81b3d2;
 color: #ffffff;
 }
 
-.feature-town {
+.feature-bridge, .feature-square, .feature-road,
+.feature-tourist {
+padding-top: 49px;
+padding-left: 48px;
+padding-right: 48px;
+}
+
+.features-list li {
+
 box-sizing: border-box;
+}
+
+.feature-town {
+
 padding: 46px 60px 64px;
 }
 
@@ -278,7 +290,7 @@ h1 {
 
 .about p {
 margin: 0;
-
+margin-top: 38px;
 }
 
 p {
