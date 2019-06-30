@@ -32,7 +32,8 @@ padding: 0px;
 }
 
 .header-logo {
-
+  width: 140px;
+  height: 71px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -49,7 +50,7 @@ padding: 0px;
 
 .site-navigation li:nth-child(3) {
   margin-left:  244px;
-  min-width: 0px;
+
 }
 
 :focus {
@@ -138,7 +139,7 @@ display: block;
 
 }
 
-.feature-town, .feature-motel, .feature-food, .feature-souvenir,
+.feature-town,
 .feature-bridge, .feature-square, .feature-road, .feature-tourist
  {
   width: 400px;
@@ -169,7 +170,59 @@ box-sizing: border-box;
 padding: 46px 60px 64px;
 }
 
+.feature-motel, .feature-food, .feature-souvenir {
+position: relative;
+min-height: 330px;
+width: 400px;
+}
 
+.feature-motel h2, .feature-food h2, .feature-souvenir h2 {
+
+margin-top: 158px;
+}
+
+
+.feature-motel h2::before {
+  content: "";
+
+  position: absolute;
+  top: 60px;
+  left: 162px;
+
+  width: 75px;
+  height: 72px;
+
+  background-image: url("../img/icon-1.svg");
+
+}
+
+.feature-food h2::before {
+  content: "";
+
+  position: absolute;
+  top: 60px;
+  left: 163px;
+
+  width: 74px;
+  height: 70px;
+
+  background-image: url("../img/icon-3.svg");
+
+}
+
+.feature-souvenir h2::before {
+  content: "";
+
+  position: absolute;
+  top: 56px;
+  right: 168px;
+
+  width: 64px;
+  height: 76px;
+
+  background-image: url("../img/icon-2.svg");
+
+}
 .book-container {
   display: flex;
   flex-direction: column;
@@ -214,7 +267,7 @@ margin: 0 auto;
 }
 
 .hashtag-container {
-  margin-top: 51px;
+  margin-top: 48px;
   margin-left: 132px;
 
   width: 136px;
@@ -226,10 +279,62 @@ margin: 0 auto;
   margin-top: 36px;
   margin-left: 256px;
 
-  width: 150px;
+  width: 156px;
   height: 48px;
 
 
+}
+
+.footer-social li {
+  position: relative;
+}
+
+.twitter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 17px;
+  height: 15px;
+
+  background-image: url("../img/tw-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.facebook::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 12px;
+  height: 22px;
+
+  background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.youtube::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 20px;
+  height: 16px;
+
+  background-image: url("../img/youtube-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .copyright-container {
@@ -237,9 +342,11 @@ margin: 0 auto;
   margin-left: 228px;
 
   width: 197px;
-  height: 41px;
+  min-height: 41px;
+}
 
-
+.copyright-container p {
+  margin: 0;
 }
 
 .catalog-list {
@@ -407,9 +514,11 @@ color: #000000;
   text-align: center;
 }
 
-.footer-social ul {
+ .footer-social ul {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .hashtag {
@@ -419,6 +528,7 @@ color: #000000;
 }
 
 .footer-social li {
+  box-sizing: border-box;
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
@@ -435,10 +545,29 @@ color: #000000;
 
 }
 
+.academy-logo {
+display: inline-block;
+}
+
+.academy-logo:hover path {
+fill: #81b3d2;
+}
+
+.academy-logo:active path {
+fill: #bdbbbc;
+}
+
+
 .footer-copyright b {
+  display: inline-block;
+  margin-top: 10px;
   line-height: 1.86;
   font-weight: normal;
+  min-height: 11px;
+  vertical-align: top;
 }
+
+
 
 .catalog-item-title {
   font-weight: bold;
@@ -505,10 +634,20 @@ color: #000000;
   margin-left: 538px;
 }
 
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
+
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
