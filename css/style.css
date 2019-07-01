@@ -411,6 +411,7 @@ margin: 0 auto;
   display: flex;
   margin: 30px 72px;
   min-height: 150px;
+
 }
 
 .catalog-item-image {
@@ -704,7 +705,7 @@ fill: #bdbbbc;
   line-height: 1.5;
   color: #666666;
   margin-left: auto;
-
+  margin-top: 99px;
 }
 
 .visually-hidden:not(:focus):not(:active),
