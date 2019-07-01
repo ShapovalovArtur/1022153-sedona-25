@@ -138,6 +138,15 @@ a {
 display: block;
 
 }
+.feature-town h2, .feature-road h2, .feature-tourist h2
+ {
+
+margin-right: 75px;
+margin-left: 75px;
+}
+
+
+
 
 .feature-town,
 .feature-bridge, .feature-square, .feature-road, .feature-tourist
@@ -167,7 +176,32 @@ box-sizing: border-box;
 
 .feature-town {
 
-padding: 46px 60px 64px;
+padding: 46px 60px 42px;
+}
+
+.feature-motel {
+  padding-left: 73px;
+  padding-right: 73px;
+}
+
+.feature-food {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.feature-souvenir {
+  padding-left: 63px;
+  padding-right: 63px;
+}
+
+.feature-square {
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.feature-road {
+  padding-left: 65px;
+  padding-right: 65px;
 }
 
 .feature-motel, .feature-food, .feature-souvenir {
@@ -261,6 +295,7 @@ margin: 0;
 
 .main-footer {
 width: 1200px;
+min-height: 120px;
 display: flex;
 margin: 0 auto;
 
