@@ -53,6 +53,22 @@ padding: 0px;
 
 }
 
+.nav-information {
+  margin-left: 1px;
+}
+
+.nav-gallery {
+  margin-right: 3px;
+}
+
+.nav-map {
+  margin-right: 2px;
+}
+
+.nav-catalog {
+  margin-left: 8px;
+}
+
 :focus {
 outline: none;
 }
@@ -385,6 +401,8 @@ margin: 0 auto;
 }
 
 .catalog-list {
+  display: flex;
+  flex-direction: column;
   padding: 0px;
   border-top: 1px solid white;
 
@@ -392,11 +410,24 @@ margin: 0 auto;
 .catalog-item {
   display: flex;
   margin: 30px 72px;
+  min-height: 150px;
 }
+
+.catalog-item-image {
+  margin: 0;
+  padding: 0;
+  width: 135px;
+}
+
+
 
 .item-properties-container {
   margin-left: 30px;
   min-width: 258px;
+}
+
+.item-properties-container h2{
+  margin: 0;
 }
 
 .features-list,
@@ -633,11 +664,18 @@ fill: #bdbbbc;
 
 .button-info {
   background-color: #81b3d2;
+  display: inline-block;
+  width: 110px;
+  min-height: 27px;
+
+
 }
 
 .button-book {
   background-color: #81b3d2;
-
+  display: inline-block;
+  width: 142px;
+  min-height: 27px;
 }
 
 .button-info:hover {
@@ -665,8 +703,8 @@ fill: #bdbbbc;
 .catalog-item-rating {
   line-height: 1.5;
   color: #666666;
-  margin-right: 72px;
-  margin-left: 538px;
+  margin-left: auto;
+
 }
 
 .visually-hidden:not(:focus):not(:active),
