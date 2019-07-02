@@ -425,11 +425,19 @@ margin: 0 auto;
 .item-properties-container {
   margin-left: 30px;
   min-width: 258px;
+  text-align: left;
 }
 
 .item-properties-container h2{
   margin: 0;
+  margin-bottom: 7px;
 }
+
+.catalog-item-action {
+  margin: 0;
+  margin-top: 7px;
+}
+
 
 .features-list,
 .site-navigation,
@@ -653,6 +661,14 @@ fill: #bdbbbc;
 .catalog-category, .catalog-item-price {
   color: #333333;
   line-height: 1.5;
+  display: inline-block;
+  width: 100px;
+}
+
+.catalog-item-price {
+
+  margin-left: 10px;
+
 }
 
 
@@ -661,6 +677,7 @@ fill: #bdbbbc;
   font-weight: bold;
   line-height: 1.5;
   color: #ffffff;
+  text-align: center;
 }
 
 .button-info {
