@@ -409,6 +409,7 @@ margin: 0 auto;
 }
 .catalog-item {
   display: flex;
+  position: relative;
   margin: 30px 72px;
   min-height: 150px;
 
@@ -721,9 +722,52 @@ fill: #bdbbbc;
 .catalog-item-rating {
   line-height: 1.5;
   color: #666666;
+  background-color: #f2f2f2;
   margin-left: auto;
-  margin-top: 99px;
+  margin-top: 92px;
+  height: 27px;
+  width: 110px;
 }
+
+.catalog-item:first-child::before {
+  content: "";
+  position: absolute;
+  left: 965px;
+  top: 0px;
+  width: 89px;
+  height: 17px;
+
+  background-image: url("../img/star.svg");
+  background-repeat: space no-repeat;
+  background-position: 0 0;
+}
+
+.catalog-item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  left: 989px;
+  top: 0px;
+  width: 65px;
+  height: 17px;
+
+  background-image: url("../img/star.svg");
+  background-repeat: space no-repeat;
+  background-position: 0 0;
+}
+
+.catalog-item:last-child::before {
+  content: "";
+  position: absolute;
+  left: 1013px;
+  top: 0px;
+  width: 41px;
+  height: 17px;
+
+  background-image: url("../img/star.svg");
+  background-repeat: space no-repeat;
+  background-position: 0 0;
+}
+
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
