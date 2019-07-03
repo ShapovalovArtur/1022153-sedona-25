@@ -106,13 +106,13 @@ a {
   min-height: 724px;
   margin: 0 auto;
   background: url("../img/main-intro.jpg") no-repeat;
-
+  background-position: 0% -24px;
   padding-top: 76px;
 }
 
 .welcome-image {
 
-    margin-bottom: 39px;
+    margin-bottom: 21px;
 
 
 }
