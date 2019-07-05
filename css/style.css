@@ -54,11 +54,11 @@ padding: 0px;
 }
 
 .nav-information {
-  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .nav-gallery {
-  margin-right: 3px;
+  margin-left: 6px;
 }
 
 .nav-map {
@@ -66,7 +66,7 @@ padding: 0px;
 }
 
 .nav-catalog {
-  margin-left: 8px;
+  margin-left: 16px;
 }
 
 :focus {
@@ -86,7 +86,7 @@ a {
   line-height: 1.86;
   font-weight: bold;
   padding: 0;
-
+  min-height: 56px;
 }
 
 .container {
@@ -103,16 +103,16 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-height: 724px;
+  min-height: 647px;
   margin: 0 auto;
   background: url("../img/main-intro3.jpg") no-repeat;
-  background-position: 0% -54px;
-  padding-top: 78px;
+  background-position: 0% -56px;
+  padding-top: 76px;
 }
 
 .welcome-image {
 
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 
 
 }
@@ -126,7 +126,7 @@ a {
 .about {
   width: 489px;
   height: 110px;
-  margin-top: 61px;
+  margin-top: 57px;
 }
 .features-container {
   display: flex;
@@ -511,7 +511,7 @@ h1 {
 
 .about p {
 margin: 0;
-margin-top: 38px;
+margin-top: 28px;
 }
 
 p {
