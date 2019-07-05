@@ -107,12 +107,12 @@ a {
   margin: 0 auto;
   background: url("../img/main-intro3.jpg") no-repeat;
   background-position: 0% -54px;
-  padding-top: 76px;
+  padding-top: 78px;
 }
 
 .welcome-image {
 
-    margin-bottom: 21px;
+    margin-bottom: 20px;
 
 
 }
@@ -393,7 +393,7 @@ margin: 0 auto;
   width: 12px;
   height: 22px;
 
-  background-image: url("../img/fb-icon.svg");back
+  background-image: url("../img/fb-icon.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
