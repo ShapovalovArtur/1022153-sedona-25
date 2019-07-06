@@ -147,6 +147,10 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.features-list h2 {
+  line-height: 21px; ;
+}
 .features-list h2, .features-list p {
   margin: 0;
 }
@@ -156,7 +160,6 @@ display: block;
 }
 .feature-town h2, .feature-road h2, .feature-tourist h2
  {
-
 margin-right: 75px;
 margin-left: 75px;
 }
@@ -192,7 +195,7 @@ box-sizing: border-box;
 
 .feature-town {
 
-padding: 46px 60px 42px;
+padding: 48px 60px 42px;
 }
 
 .feature-motel {
