@@ -80,7 +80,7 @@ a {
 
 .main-navigation, .container, .main-footer {
   background-color: #ffffff;
-  /* box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2); */
+   /* box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2); */
 }
 
 
@@ -489,7 +489,9 @@ margin: 0 auto;
 }
 
 .filter-result {
-min-height: 86px;
+  box-sizing: border-box;
+  min-height: 86px;
+  border-bottom: 1px solid #f2f2f2;
   }
 
 .catalog-list {
@@ -503,8 +505,11 @@ min-height: 86px;
 .catalog-item {
   display: flex;
   position: relative;
-  margin: 30px 72px;
-  min-height: 150px;
+  margin-top: 30px;
+  padding-left: 72px;
+  min-height: 121px;
+  border-bottom:  1px solid #f2f2f2;
+  box-sizing: border-box;
 
 }
 
@@ -518,6 +523,7 @@ min-height: 86px;
 
 .item-properties-container {
   margin-left: 30px;
+  margin-top: 1px;
   min-width: 258px;
   text-align: left;
 }
@@ -525,11 +531,12 @@ min-height: 86px;
 .item-properties-container h2{
   margin: 0;
   margin-bottom: 7px;
+  margin-top: -6px;
 }
 
 .catalog-item-action {
   margin: 0;
-  margin-top: 7px;
+  margin-top: 12px;
 }
 
 
@@ -812,7 +819,7 @@ fill: #bdbbbc;
 
 .catalog-item-price {
 
-  margin-left: 10px;
+  margin-left: 13px;
 
 }
 
@@ -839,6 +846,8 @@ fill: #bdbbbc;
   display: inline-block;
   width: 142px;
   min-height: 27px;
+  margin-left: 3px;
+
 }
 
 .button-info:hover {
@@ -868,7 +877,9 @@ fill: #bdbbbc;
   color: #666666;
   background-color: #f2f2f2;
   margin-left: auto;
-  margin-top: 92px;
+  margin-top: 63px;
+  margin-bottom: 0px;
+  margin-right: 73px;
   height: 27px;
   width: 110px;
 }
@@ -876,7 +887,7 @@ fill: #bdbbbc;
 .catalog-item:first-child::before {
   content: "";
   position: absolute;
-  left: 965px;
+  left: 1039px;
   top: 0px;
   width: 89px;
   height: 17px;
@@ -889,7 +900,7 @@ fill: #bdbbbc;
 .catalog-item:nth-child(2)::before {
   content: "";
   position: absolute;
-  left: 989px;
+  left: 1063px;
   top: 0px;
   width: 65px;
   height: 17px;
@@ -902,7 +913,7 @@ fill: #bdbbbc;
 .catalog-item:last-child::before {
   content: "";
   position: absolute;
-  left: 1013px;
+  left: 1087px;
   top: 0px;
   width: 41px;
   height: 17px;
