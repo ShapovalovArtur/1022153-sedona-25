@@ -482,11 +482,12 @@ margin: 0 auto;
 }
 
 .filter-container {
-  min-height: 217px;
+
   background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
   background-position: 0% 50%;
   padding-top: 27px;
+  padding-bottom: 33px;
 }
 
 .filter-result {
@@ -944,7 +945,7 @@ input[type="radio"].visually-hidden {
 }
 /* фильтр */
 .filter-range {
-  width: 317px;
+  width: 318px;
   color: #ffffff;
   text-transform: uppercase;
   margin-left: auto;
@@ -952,7 +953,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   text-align: left;
   font-weight: 600;
   font-size: 16px;
@@ -962,7 +963,7 @@ input[type="radio"].visually-hidden {
 .price-controls {
   position: relative;
 
-  height: 36px;
+  height: 32px;
   margin-bottom: 20px;
 
   font-size: 0;
@@ -1058,8 +1059,8 @@ input[type="radio"].visually-hidden {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
-  padding: 6px 35px;
+  margin-left: 85px;
+  padding: 6px 34px;
 
   font-size: 14px;
   line-height: 20px;
