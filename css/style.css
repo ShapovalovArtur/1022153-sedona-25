@@ -989,7 +989,7 @@ input[type="radio"].visually-hidden {
   display: inline-block;
 
   font-size: 14px;
-  line-height: 38px;
+  line-height: 32px;
   vertical-align: top;
 
   cursor: pointer;
@@ -998,7 +998,7 @@ input[type="radio"].visually-hidden {
 .price-controls .min-price,
 .price-controls .max-price {
   width: 90px;
-  padding-left: 65px;
+  padding-left: 55px;
 }
 
 .price-controls input {
