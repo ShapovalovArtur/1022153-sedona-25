@@ -491,10 +491,25 @@ margin: 0 auto;
 }
 
 .filter-result {
+  display: flex;
   box-sizing: border-box;
-  min-height: 86px;
   border-bottom: 1px solid #f2f2f2;
+  text-align: left;
+  padding-bottom: 30px;
+
   }
+
+  .filter-result h2 {
+    margin: 0;
+    margin-top: 31px;
+    margin-left: 31px;
+    margin-left: 72px;
+  }
+
+  .found-quantity {
+    margin-left: 5px;
+  }
+
 
 .catalog-list {
   display: flex;
@@ -943,6 +958,8 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
 /* фильтр */
 .filter-range {
   width: 318px;
