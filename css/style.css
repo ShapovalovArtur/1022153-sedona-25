@@ -527,7 +527,7 @@ margin: 0 auto;
   .filter-result button {
     font-size: 12px;
     background-color: #ffffff;
-    margin-top: 35px;
+    margin-top: 38px;
     font-weight: normal;
   }
 
@@ -567,20 +567,35 @@ margin: 0 auto;
 width: 11px;
 height: 10px;
 padding: 0;
+
 }
 
 .up {
 margin-left: auto;
 margin-right: 12px;
-background: url("../img/icon-up-dir.svg") 35% 50% no-repeat;
-
 }
 
 .down {
 margin-right: 73px;
-background: url("../img/icon-down-dir.svg") 35% 50% no-repeat;
 
 }
+
+.up path {
+  fill: #cacaca;
+}
+
+.down path {
+  fill: #81b3d2;
+}
+
+.up:hover path, .down:hover path {
+  fill: #231F20;
+}
+
+.up:active path, .down:active path {
+  fill: #81b3d2;
+}
+
 .catalog-list {
   display: flex;
   flex-direction: column;
