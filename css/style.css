@@ -750,9 +750,23 @@ input:focus {
   padding: 0;
   margin-left: -4px;
   margin-top: -4px;
-  background: url("../img/calendar.svg") 35% 50% no-repeat;
-  background-color: #f2f2f2;
+  /* background: url("../img/calendar.svg") 35% 50% no-repeat;
+  background-color: #f2f2f2; */
+
 }
+
+.calendar-in path, .calendar-out path {
+  fill: #cacaca;
+}
+
+.calendar-in:hover path, .calendar-out:hover path {
+  fill: #000000;
+}
+
+.calendar-in:active path, .calendar-out:active path {
+  fill: #81b3d2;
+}
+
 
 .calendar-out {
   height: 40px;
@@ -760,8 +774,7 @@ input:focus {
   padding: 0;
   margin-left: -4px;
   margin-top: -4px;
-  background: url("../img/calendar.svg") 35% 50% no-repeat;
-  background-color: #f2f2f2;
+
 }
 
 .reduce, .add {
