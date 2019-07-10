@@ -24,6 +24,56 @@
     <main class="container">
     <section class="catalog">
       <div class="filter-container">
+
+      <section class="filters">
+        <h2 class="visually-hidden">Фильтр жилья</h2>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset class="fieldset-filter">
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california"
+                  id="filter-baxter-of-california" checked>
+                <label for="filter-baxter-of-california">Бассейн</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty"
+                  id="filter-mr-natty">
+                <label for="filter-mr-natty">Парковка</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito"
+                  id="filter-suavecito">
+                <label for="filter-suavecito">wi-fi</label>
+              </li>
+
+            </ul>
+          </fieldset>
+          <fieldset class="fieldset-filter2">
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="product-group"
+                  value="shaving" id="filter-shave" checked>
+                <label for="filter-shave">Гостиница</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="product-group"
+                  value="hair-care" id="filter-care" checked>
+                <label for="filter-care">Мотель</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="product-group"
+                  value="accessories" id="filter-accessories" checked>
+                <label for="filter-accessories">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <!-- <button type="submit" class="filter-button button">Показать</button> -->
+        </form>
+      </section>
+
+
         <div class="filter-range">
           <div class="filter-range-title">Стоимость в сутки (р):</div>
           <div class="price-controls">
